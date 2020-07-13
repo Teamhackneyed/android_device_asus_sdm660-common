@@ -6,8 +6,6 @@
 
 COMMON_PATH := device/asus/sdm660-common
 
-BOARD_VENDOR := asus
-
 BUILD_BROKEN_DUP_RULES := true
 
 # Architecture

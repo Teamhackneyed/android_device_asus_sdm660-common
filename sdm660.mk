@@ -348,7 +348,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service-qti
+    android.hardware.power-service-qti
 
 # Additional native libraries
 # See https://source.android.com/devices/tech/config/namespaces_libraries

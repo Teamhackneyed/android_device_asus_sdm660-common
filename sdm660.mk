@@ -110,9 +110,11 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
     libtinyxml \
     libqdMetaData \
-    libqdMetaData.system
+    libqdMetaData.vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -442,7 +444,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libaacwrapper \
     libmediaextractorservice \
-    libnl
+    libnl \
+    libstagefright_enc_common
 
 PRODUCT_BOOT_JARS += \
     WfdCommon

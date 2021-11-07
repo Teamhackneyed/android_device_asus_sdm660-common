@@ -132,6 +132,10 @@ BOARD_USES_QCOM_HARDWARE := true
 # Recovery
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
 
+# Smartcharge
+TARGET_SMARTCHARGE_CONTROL_NODE := "sys/class/power_supply/battery/input_suspend"
+TARGET_SMARTCHARGE_REVERSE_LOGIC := true
+
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_asus
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)

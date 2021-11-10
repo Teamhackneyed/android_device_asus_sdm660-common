@@ -295,16 +295,18 @@ vendor/lib64/libhdr_tm.so
 
 # Graphics (SDM)
 vendor/lib/libqseed3.so
-vendor/lib/libsdm-color.so
 vendor/lib/libsdm-diag.so
-vendor/lib/libsdmextension.so
 vendor/lib/libtinyxml2_1.so
 vendor/lib64/libqseed3.so
-vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
+
+# Graphics (SDM) - from LA.UM.8.2.r1-05700-sdm660.0
+vendor/lib/libsdm-color.so|325c5b6cff3cf3d7d5d8e479a1c37f7255cbf748
+vendor/lib/libsdmextension.so|342a6ecc85a93309c86c01466a612cfbe49c69f5
+vendor/lib64/libsdm-color.so|fb624abddaf7c5971f470c36dcdd7c7feb060352
+vendor/lib64/libsdmextension.so|71d2737fea43aa19216f63d551d2abf7ae02794e
 
 # Graphics (Vulkan)
 vendor/lib/hw/vulkan.sdm660.so

@@ -371,9 +371,9 @@ system/bin/nvram_btwifi
 # NVRAM Deps - from cmi RKQ1.200512.002-V20.6.28
 system_ext/lib64/libmmi.so:system/lib64/libmmi.so|f2beb127814367f841758c4f0eeca3fbe8deecb5
 
-# Perf
-vendor/lib/libqti-perfd-client.so
-vendor/lib64/libqti-perfd-client.so
+# Perf - from taimen QQ3A.200705.002
+vendor/lib/libqti-perfd-client.so|c1c7482b58fbe012f934b54bea78ff52068ea530
+vendor/lib64/libqti-perfd-client.so|d16c17427d6383368d035c9bf028630837b3b969
 
 # Peripheral manager
 vendor/bin/pm-proxy
